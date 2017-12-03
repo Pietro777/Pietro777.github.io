@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <style type="text/css">
+ 
+ p.sansserif{
+ 	font-family:Arial,Verdana,Sans-serif;
+ 	position:relative;
+    left:200px;
+ }
+ 
+ body
+{ 
+  background-image:url('1.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  background-position:center;
+}
+
+p {font-size: 300%}
+
+h4.back{
+	font-family:Arial,Verdana,Sans-serif;
+ 	position:relative;
+    left:1200px;}
+
+h6.foot{
+     font-family:Arial,Verdana,Sans-serif;
+    position:relative;
+    left:550px;
+}
+
+#box1 {
+margin-left:175px;
+width: 1000px;
+height:320;
+border-width: 2px;
+border-style:solid;
+border-color:#CCC;
+background: #CCC;
+background filter: alpha(opacity:60);
+   opacity: 0.6;
+}
+  </style>
+</head>
+<body>
+
+<p class="sansserif">Now I will show you some fundamental tags!</p>
+
+<h4 class="back"><a href="index.html">homepage</a></h4>
+
+<div id="box1">
+
+<pre><h1>
+CSS rules consist of two main parts: the selector, and one or more 
+statements.
+
+selector {declaration1; declaration2; ... declarationN }
+
+The selector is usually the HTML element that you need to change the 
+style.
+Each declaration consists of a property and a value.
+Property is the style attribute that you want to set. Each attribute 
+has a value. Properties and values are separated by colons.
+
+selector {property: value}
+
+The following line of code defines the text color in the h1 element as
+ red, and the font size is set to 14 pixels.
+In this example, h1 is the selector, color and font-size are attributes,
+ red and 14px are values.
+
+ h1 {color:red; font-size:14px;}
+
+ Most stylesheets contain more than one rule, and most rules contain 
+ more than one statement. The use of multiple declarations and Spaces 
+ makes the style sheet easier to edit:
+
+body {
+  color: #000;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, Palatino, serif;
+  }
+
+  Whether to include Spaces does not affect CSS work in the browser, 
+  and again, unlike XHTML, CSS is not case sensitive. There is one 
+  exception though: class and id names are sensitive to case if they 
+  involve working with HTML documents.
+</h1></pre>
+</div>
+<h6 class="foot"><font color="white">2017/11/18 by QiJiali(studentID:201632110215)</h6>
+</body>
+</html>

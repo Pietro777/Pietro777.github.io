@@ -1,59 +1,150 @@
+
+<!DOCTYPE html>
 <html>
 <head>
-<style type="text/css">
-  a.one:link {color:#ff0000;}
-  a.one:visited {color:#0000ff;}
-  a.one:hover {color:#ffcc00;}
-
-  body {
-  background-image:url("1.jpg");
-  background-repeat:no-repeat;
-  background-attachment:fixed;
-  background-position:50% 30%;
-  color:red;
+ <style type="text/css">
+ p.sansserif{
+ 	font-family:Arial,Verdana,Sans-serif;
+ 	position:relative;
+    left:250px;
+ }
+ p.next{
+    font-family:Arial,Verdana,Sans-serif;
+    position:relative;
+    left:300px;
+ }
+h6.foot{
+     font-family:Arial,Verdana,Sans-serif;
+    position:relative;
+    left:550px;
 }
-</style>
+ p {font-size: 300%}
+   * {
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            #nav {
+                width: 1000px;
+                background-color: #4D4D4D;
+                height: 40px;
+                /*border-radius: 10px;*/
+                position: relative;
+                margin: 0px auto;
+                top: 0px;
+            }
+            
+            .nav-container {
+                width: 100%;
+                height: 40px;
+                position: absolute;
+            }
+            
+            .banner {
+                float: left;
+                text-align: center;
+                height: 40px;
+                width: 25%;
+                line-height: 40px;
+            }
+            
+            .banner:hover {
+                background-color: #00BFFF;
+                cursor: pointer;
+            }
+            
+            div ul {
+                list-style: none;
+                /*display: none;*/
+                background-color: #737373;
+                overflow: hidden;
+                /*模拟height:auto时候的情况*/                
+                max-height: 0px;
+                transition: max-height 1.3s;
+                /*多浏览器支持*/
+                -moz-transition: height 1s;
+                -webkit-transition: height 1s;
+                -o-transition: height 1s;
+            }
+            
+            .banner:hover ul {
+                /*display: block;*/
+                width: 100%;
+                max-height: 160px;
+            }
+            
+            div ul li {
+                overflow: hidden;
+            }
+            
+            div ul li:hover {
+                background-color: #D3D3D3;
+            }
+body
+{ 
+  background-image:url('1.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  background-position:center;
+}
+#box {
+ 
 
+    margin-left: 180px;
+width: 1000px;
+height:320;
+border-width: 2px;
+border-style:solid;
+border-color:#CCC;
+background: #CCC;
+background filter: alpha(opacity:60);
+   opacity: 0.6;
+}
+ </style>
 </head>
-<body >
-<table border=0 bordercolor=red width=98% align=center>
-<tr><td align=center colspan=2>
-<br><br><br>
-<h1>Avengers</h1>
-<br><br><br>
-</td></tr>
-<tr><td width=70% align=center>
-<br><br><br><br><br><br><br><br><br><br><br>
-<font color="#FFFFFF">The Avengers, super hero group is one of the world's most famous.
+<body>
+	<p class="sansserif"><font color="white">WELCOME TO HTML CLASSROOM!!!!</p>
+		<div class="nav-container">
+            <div id="nav">
+                <div id="nav-button-1" class="banner">About
+                    <ul>
+                    
+                        <li><a href="indexabout.html">About the website</a></li>
+                    </ul>
+                </div>
+                <div id="nav-button-2" class="banner">HTML
+                    <ul>
+                        <li><a href="indexWIH.html">What is HTML?</a></li>
+                        <li><a href="indexHtags.html">Some tags</a></li>
+                        <li><a href="indexHWP.html">Make your first website!!</a></li>
+                    </ul>
+                </div>
+                <div id="nav-button-3" class="banner">CSS
+                    <ul>
+                        <li><a href="indexWhatIsCSS.html">What is CSS?</a></li>
+                        <li><a href="indexCSSTags.html">Basic Grammar</li>
+                        <li><a href="indexSimpleCSS.html">A simple website</a></li>
+                    </ul>
+                </div>
+               
+                <div id="nav-button-4" class="banner">Relax
+                    <ul>
+                        <li><a href="http://www.4399.com/">4399 Games</a></li>
+                        <li><a href="http://www.7k7k.com/">7k7k Games</a></li>
 
-With more and more under the cartoon characters, the Marvel Super Heroes of thesecompanies make a group, this can not only bring fire a number
-
-of popular his second tier figures, but also create many opportunities
-for Super Heroes made a guest appearance. For business purpose, the avenger was born. Avenger initially by the iron man, Thor, ant man and the
-
-Wasp Woman, USA captain et al. With the continuous development, more and
-
-morecartoon characters to join, has become a composed of hundreds of superhero team hero.They have a unified plan and PR measures.
-On weekdays, the super heroes each busy each, each have their own career
-
-and friends sike.Wait until the occurrence of some event, when one or several super hero cannot handleevents when the Avengers assembled together, for the maintenance of the world and their own reasons to fight.
-
-The Avengers, a super hero group, is one of the best-known across the world.
-
-The Avengers was initially built by Iron Man, Thor, Ant Man, Wasp Woman, and Captain America. With the continuous development, more and more cartoon
-
-characters join, making it a league of hundreds of superheroes. They have
-a unified strategy and PR measures.
-
-On weekdays, the super heroes are busy dealing with their own things, and each of them has their own career, friends and enemies. When the occurrence of a certain event, which one or several super heroes cannot handle, the Avengers assemble together, fighting for the only world they live in and some special reasons.</font>
-<br><br><br><br><br><br><br><br><br><br><br>
-</td><td width=30% align=center>
-<p><b><a class="one" href="http://www.4399.com/" target="_blank">There is nothing to do with the Avengers</a></b></p>
-<p><b><a class="one" href="https://pietro777.github.io/1" target="_blank"> Something About Captain America</a></b></p>
-</td></tr>
-<tr><td align=center colspan=3> <br>
-2017/10/17 by 201632110215
-<br></td></tr>
-</table>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br>
+        <div id="box">
+<p class="next"><font color="black">Hello my friend!</p>
+<h1>
+Free website for new html learner!You can learn something fundamental!After 10 minutes browsing my webpages,you can make a cute website!!! 
+</h1>
+</div>
+<br><br><br><br><br><br><br><br><br><br>
+<h6 class="foot"><font color="white">2017/11/18 by QiJiali(studentID:201632110215)
 </body>
 </html>
